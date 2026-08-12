@@ -103,7 +103,7 @@
 <div id="dark">
 	<div class:visible={show}>
 		<h2 id="get">Get stuff like:</h2>
-		<i id="det-disclaimer">All marked with * are suggestions for the "Camera & supplies grant"</i>
+		<i id="det-disclaimer">Marked with * are suggestions for use of the "Camera & supplies grant"</i>
 
 		<div id="polaroid-grid">
 			{#each items as [url, alt, desc]}
