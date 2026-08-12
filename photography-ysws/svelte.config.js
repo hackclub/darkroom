@@ -7,7 +7,9 @@ const config = {
 			fallback: '404.html'
 		}),
 		paths: {
-			base: process.env.CUSTOM_DOMAIN ? '' : '/Darkroom'
+			// GitHub Pages uses /Darkroom unless CUSTOM_DOMAIN is set.
+			// Vercel serves the project at the domain root.
+			base: process.env.VERCEL || process.env.CUSTOM_DOMAIN ? '' : '/Darkroom'
 		}
 	}
 };
