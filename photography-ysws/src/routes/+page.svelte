@@ -13,23 +13,23 @@
 
 	let items = [
 		["https://cdn.hackclub.com/019cf3a4-5c6d-7085-ae8c-b6e7267c1257/instax_crop.png",
-			"Instax", "An Instax instant camera"],
+			"Instax", "An Instax instant camera*"],
 		["https://cdn.hackclub.com/019cf3a4-5e21-7fcf-a9e9-cd2ad4f39e76/memory_cards_crop.png", 
-			"Memory cards", "Memory cards to store your photos"],
+			"Memory cards", "Memory cards to store your photos*"],
 		["https://cdn.hackclub.com/019cf658-bc26-752a-8278-4eabf833026d/accessories_crop.png",
-			"Accessories", "A grant for accessories"],
+			"Accessories", "A bunch of accessories*"],
 		["https://user-cdn.hackclub-assets.com/019cf3ab-4853-70fe-b981-c9e504397c82/kodak_chamera_crop.png",
-			"Kodak Charmera", "Kodak Charmera - A keychain camera"],
+			"Kodak Charmera", "Kodak Charmera - A keychain camera*"],
 		["https://cdn.hackclub.com/019cf63c-c237-7edf-bedb-aa6554c0fdd9/sticker_sheet_placeholder_crop.png",
 			"Sticker sheet", "A cool sticker sheet!"],
 		["https://cdn.hackclub.com/019cf63c-be51-7b67-aa1b-aa18b0012a12/film_crop.png",
-			"Film", "Some Instax film, possibly others too"],
+			"Film grant", "Restock your film*"],
 		["https://cdn.hackclub.com/019cf63c-c06e-77ce-90d8-ad3a0f4e9750/digicam_crop.png",
-			"Digicam", "A Digicam, exact model tbd"],
+			"Camera grant", "A retro digicam*"],
 		["https://cdn.hackclub.com/019cf3a4-6360-7cfe-abcc-f1248cd352a7/printed_photps_crop.png",
 			"Printed photos", "A grant to get your photos printed"],
-		["https://cdn.hackclub.com/019d0785-f708-7e61-8bdb-3b8f0c96bac4/cleaning_kit_crop.png", 
-			"Cleaning kit", "A cleaning kit to tidy up your camera"]
+		["https://cdn.hackclub.com/019d0785-f708-7e61-8bdb-3b8f0c96bac4/cleaning_kit_crop.png",
+			"Cleaning kit", "A cleaning kit to tidy up your camera*"]
 		];
 
 	let faqs = [
@@ -43,7 +43,7 @@
 			"Not at all! You can be new to coding, photography, or both. You can always ask for help in the Slack channel."],
 		["What can I make?",
 			"Anything related to photography! For example: an image-editing app, a photobook website, your own camera app or whatever else you like."],
-		["What counts as \"shipped\"?",
+		["What counts as shipped?",
 			"You must have a public and open-source GitHub repo and a live demo that other people can easily try out."],
 		["Can I use AI when making my project?",
 			"We encourage you to do it on your own. But yes, you can use some AI (~30% max)."],
@@ -83,12 +83,12 @@
 			<p id="description">
 				Build something photography-related,<br>
 				Get cameras, gear, film and other cool stuff!<br><br>
-				<strong>Starting soon!</strong>
+				<strong>Running from August 13th to September 7th</strong>
 			</p>
 		</div>
 		
 		<div id="buttons">
-			<a href="https://trulle123.fillout.com/darkroom-rsvp" target="_blank" class="button">RSVP</a>
+			<a href="https://forms.hackclub.com/darkroom-submission" target="_blank" class="button">Submit your project</a>
 			<a href="https://hackclub.enterprise.slack.com/archives/C0ALM44RBFU" target="_blank" class="button">Join #darkroom</a>
 		</div>
 	</div>
@@ -103,7 +103,7 @@
 <div id="dark">
 	<div class:visible={show}>
 		<h2 id="get">Get stuff like:</h2>
-		<i id="det-disclaimer">*This is subject to change!</i>
+		<i id="det-disclaimer">All marked with * are suggestions for the "Camera & supplies grant"</i>
 
 		<div id="polaroid-grid">
 			{#each items as [url, alt, desc]}
