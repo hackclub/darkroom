@@ -20,8 +20,6 @@
 			"Accessories", "A bunch of accessories*"],
 		["https://user-cdn.hackclub-assets.com/019cf3ab-4853-70fe-b981-c9e504397c82/kodak_chamera_crop.png",
 			"Kodak Charmera", "Kodak Charmera - A keychain camera*"],
-		["https://cdn.hackclub.com/019cf63c-c237-7edf-bedb-aa6554c0fdd9/sticker_sheet_placeholder_crop.png",
-			"Sticker sheet", "A cool sticker sheet!"],
 		["https://cdn.hackclub.com/019cf63c-be51-7b67-aa1b-aa18b0012a12/film_crop.png",
 			"Film grant", "Restock your film*"],
 		["https://cdn.hackclub.com/019cf63c-c06e-77ce-90d8-ad3a0f4e9750/digicam_crop.png",
