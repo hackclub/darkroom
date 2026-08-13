@@ -41,6 +41,8 @@
 			"Not at all! You can be new to coding, photography, or both. You can always ask for help in the Slack channel."],
 		["What can I make?",
 			"Anything related to photography! For example: an image-editing app, a photobook website, your own camera app or whatever else you like."],
+		["What are the grant rates?",
+			"Both the camera & supplies grant and the photo printing grant have a rate of $5 an hour."],
 		["What counts as shipped?",
 			"You must have a public and open-source GitHub repo and a live demo that other people can easily try out."],
 		["Can I use AI when making my project?",
