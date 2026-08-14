@@ -107,10 +107,10 @@
 
 		<div id="polaroid-grid">
 			{#each items as [url, alt, desc]}
-				<div class="polaroid-wrap" style="transform: rotate(
-					{Math.random() < 0.5
+				<div class="polaroid-wrap" style="--rot: {
+					Math.random() < 0.5
 						? -(Math.random() * 4 + 2)
-						: Math.random() * 4 + 2}deg);">
+						: Math.random() * 4 + 2}deg;">
 						
 					<img
 						src={url}

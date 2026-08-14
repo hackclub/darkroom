@@ -228,6 +228,21 @@ body {
   position: relative;
   display: inline-block;
   margin-right: 2em;
+  transform: rotate(var(--rot, 0deg));
+  transition: transform 0.3s ease;
+}
+
+.polaroid-wrap:hover {
+  transform: rotate(var(--rot, 0deg)) scale(1.08);
+  z-index: 20;
+}
+
+.polaroid-wrap:hover .polaroid {
+  filter: brightness(100%) sepia(0%);
+}
+
+.polaroid-wrap:hover .polaroid-img {
+  filter: brightness(102%) sepia(15%) saturate(135%);
 }
 
 .polaroid {
