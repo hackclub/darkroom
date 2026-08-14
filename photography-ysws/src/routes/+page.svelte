@@ -24,10 +24,10 @@
 			"Film grant", "Restock your film*"],
 		["https://cdn.hackclub.com/019cf63c-c06e-77ce-90d8-ad3a0f4e9750/digicam_crop.png",
 			"Camera grant", "A retro digicam*"],
-		["https://cdn.hackclub.com/019cf3a4-6360-7cfe-abcc-f1248cd352a7/printed_photps_crop.png",
-			"Printed photos", "A grant to get your photos printed"],
 		["https://cdn.hackclub.com/019d0785-f708-7e61-8bdb-3b8f0c96bac4/cleaning_kit_crop.png",
-			"Cleaning kit", "A cleaning kit to tidy up your camera*"]
+			"Cleaning kit", "A cleaning kit to tidy up your camera*"],
+		["https://cdn.hackclub.com/019cf3a4-6360-7cfe-abcc-f1248cd352a7/printed_photps_crop.png",
+			"Printed photos", "Grant to get photos printed/developed"],
 		];
 
 	let faqs = [
@@ -42,7 +42,7 @@
 		["What can I make?",
 			"Anything related to photography! For example: an image-editing app, a photobook website, your own camera app or whatever else you like."],
 		["What are the grant rates?",
-			"Both the camera & supplies grant and the photo printing grant have a rate of $5 an hour."],
+			"Both the camera & supplies grant and the photo printing/developing grant have a rate of $5 an hour."],
 		["What counts as shipped?",
 			"You must have a public and open-source GitHub repo and a live demo that other people can easily try out."],
 		["Can I use AI when making my project?",
