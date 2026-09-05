@@ -83,7 +83,7 @@
 			<p id="description">
 				Build something photography-related,<br>
 				Get cameras, gear, film and other cool stuff!<br><br>
-				<strong>Running from August 13th to September 7th</strong>
+				<strong>Running until September 30th</strong>
 			</p>
 		</div>
 		
