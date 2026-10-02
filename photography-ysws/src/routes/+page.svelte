@@ -83,12 +83,12 @@
 			<p id="description">
 				Build something photography-related,<br>
 				Get cameras, gear, film and other cool stuff!<br><br>
-				<strong>Running until September 30th</strong>
+				<strong>Ended September 30th</strong>
 			</p>
 		</div>
 		
 		<div id="buttons">
-			<a href="https://forms.hackclub.com/darkroom-submission" target="_blank" class="button">Submit your project</a>
+			<a href="https://forms.hackclub.com/darkroom-submission" target="_blank" class="button">Submissions closed!</a>
 			<a href="https://hackclub.enterprise.slack.com/archives/C0ALM44RBFU" target="_blank" class="button">Join #darkroom</a>
 		</div>
 	</div>
