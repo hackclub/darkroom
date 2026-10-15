@@ -106,12 +106,8 @@
 		<i id="det-disclaimer">Marked with * are suggestions for use of the "Camera & supplies grant"</i>
 
 		<div id="polaroid-grid">
-			{#each items as [url, alt, desc]}
-				<div class="polaroid-wrap" style="transform: rotate(
-					{Math.random() < 0.5
-						? -(Math.random() * 4 + 2)
-						: Math.random() * 4 + 2}deg);">
-						
+			{#each items as [url, alt, desc], i}
+				<div class="polaroid-wrap" style="--rot: {(i * 53) % 9 - 4}deg;">	
 					<img
 						src={url}
 						alt={alt}
